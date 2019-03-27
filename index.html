@@ -24,13 +24,48 @@
       crossorigin="anonymous"
 		/>
 		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-
   </head>
-  <body>
-    <!-- <header>
-      <nav></nav>
-    </header> -->
-    <main class="container">
+  <body class='has-navbar-fixed-top'>
+    <header role='banner'>
+        <nav role='navigation' class="navbar is-fixed-top is-dark" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role='button' class="navbar-item has-text-weight-semibold" href="#">InvisaWrap</a>
+                <a role='button' class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class='navbar-end'>
+                    <a class="navbar-item">Home</a>
+                    <a class='navbar-item'>About</a>
+                    <a class='navbar-item'>Contact</a>
+                    <a class='navbar-item toggle-newsletter-modal'>Newsletter</a>
+                </div>
+                <div class="modal newsletter-modal">
+                    <div class="modal-background"></div>
+                    <div class="modal-content">
+                        
+                    </div>
+                    <button class="modal-close toggle-newsletter-modal is-large" aria-label="close"></button>
+                </div>
+            </div>
+        </nav>          
+    </header>
+    <main role='main' class="container">
+            <section class='hero is-fullheight-with-navbar has-bg-img'>
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-size-2 has-text-dark">
+                            InvisaWrap
+                        </h1>
+                        <h2 class="subtitle has-text-dark">
+                            The best way for GA students to study together
+                        </h2>
+                    </div>
+                </div>
+            </section>
       <!-- Bryants code -->
       <!-- <section class="section">
 	<div class="carousel carousel-slider center">
