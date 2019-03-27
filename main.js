@@ -9,9 +9,7 @@ $(document).ready(function() {
 
   $(".slick").slick({
     dots: true,
-    slidesToShow: 1,
-    autoplay: true,
-    autoplaySpeed: 2000
+    slidesToShow: 1
   });
 
   $(".navbar-burger").click(function() {

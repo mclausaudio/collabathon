@@ -1,8 +1,69 @@
+/* blusish black #0d1321 */
+
 * {
   margin: 0;
   padding: 0;
   order: 1;
   box-sizing: border-box;
+}
+
+nav {
+  padding: 1rem;
+  background-color: #0d1321 !important;
+}
+
+.hero {
+  background: url("Assests/boots-environment-flood-724656.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.about {
+  color: #fff;
+  background-color: #0d1321;
+}
+
+.model-half-photo-1,
+.model-half-photo-2 {
+  color: white;
+  z-index: -1;
+  height: 30rem;
+  position: relative;
+}
+
+.model-half-photo-container {
+  margin: 1rem !important;
+}
+
+.model-half-photo-1 {
+  background: url("Assests/model.jpg");
+  background-size: cover;
+  margin-right: 0.7rem;
+  /* width: 40%; */
+}
+
+.model-half-photo-2 {
+  background: url("Assests/model_02.jpg");
+  background-size: cover;
+}
+
+.bottom-right-text {
+  position: absolute;
+  bottom: 58px;
+  right: 16px;
+  z-index: 10;
+}
+
+.wide-model-photo-container {
+  margin-top: 2rem;
+  background: url("Assests/Model_03.jpg");
+  background-position: 0 -230px;
+  overflow: hidden;
+  background-size: cover;
+  color: white;
+  z-index: -1;
+  height: 20rem;
+  position: relative;
 }
 
 .padding-left {
@@ -39,11 +100,15 @@
 /* FOOTER  */
 
 footer {
-  background-color: #dfdfdf;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 1rem;
+}
+
+footer * {
+  color: black;
 }
 
 footer > div {
@@ -51,11 +116,16 @@ footer > div {
 }
 
 footer button {
-  width: 15rem;
+  width: 10rem;
 }
 
 .footer-links {
+  text-decoration: none;
   justify-content: space-evenly;
+}
+
+.footer-links a:link {
+  color: black;
 }
 
 /* .about-text-container {
