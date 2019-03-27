@@ -6,6 +6,7 @@
   order: 1;
   box-sizing: border-box;
   font-family: "Lora", serif;
+  font-weight: 300;
 }
 
 nav {
@@ -19,12 +20,19 @@ nav {
 }
 
 .hero {
-  background: url("Assests/boots-environment-flood-724656.jpg");
+  background: url("Assests/black-and-white-clear-cool-459451.jpg");
+  /* filter: blur(2px); */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   background-size: 100% auto;
+}
+
+.hero-button {
+  color: white;
+  background-color: #0d1321;
+  border: none;
 }
 
 .about {
@@ -60,7 +68,7 @@ nav {
 }
 
 .form-bkg {
-  background: url('Assests/form-background.jpg');
+  background: url("Assests/form-background.jpg");
   background-size: cover;
 }
 
@@ -105,10 +113,6 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
-  .hero {
-    background: url("Assests/boots-environment-flood-724656.jpg");
-  }
-
   .model-half-photo-1,
   .model-half-photo-2 {
     height: 22rem;
