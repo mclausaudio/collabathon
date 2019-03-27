@@ -5,227 +5,196 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css"
     />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
-        />
-    <link rel="stylesheet" href="style.css" />
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="main.js" /></script>
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" /> -->
   </head>
-  <body class='has-navbar-fixed-top'>
-    <header role='banner'>
-        <nav role='navigation' class="navbar is-fixed-top is-dark" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a role='button' class="navbar-item has-text-weight-semibold" href="#">InvisaWrap</a>
-                <a role='button' class="navbar-burger" aria-label="menu" aria-expanded="false">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div class="navbar-menu">
-                <div class='navbar-end'>
-                    <a class="navbar-item">Home</a>
-                    <a class='navbar-item'>About</a>
-                    <a class='navbar-item'>Contact</a>
-                    <a class='navbar-item toggle-newsletter-modal'>Newsletter</a>
-                </div>
-                <div class="modal newsletter-modal">
-                    <div class="modal-background"></div>
-                    <div class="modal-content">
+  <body class="has-navbar-fixed-top">
+    <header role="banner">
+      <nav
+        role="navigation"
+        class="navbar is-fixed-top is-dark"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a role="button" class="navbar-item has-text-weight-semibold" href="#"
+            ><img src="Assests/logo_02.png"
+          /></a>
 
-                                            <!-- Begin Mailchimp Signup Form -->
-                    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-                    <style type="text/css">
-                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                    </style>
-                    <div id="mc_embed_signup">
-                    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=6bd9e46297d39fc27574d0ef6&amp;id=3762696fbf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                        <h2>Subscribe to our mailing list</h2>
-                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                    <div class="mc-field-group">
-                        <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
-                    </label>
-                        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">Home</a>
+            <a class="navbar-item">About</a>
+            <a class="navbar-item">Contact</a>
+            <a class="navbar-item toggle-newsletter-modal">Newsletter</a>
+          </div>
+          <div class="modal newsletter-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup" class='box form-bkg'>
+                <form action="https://gmail.us20.list-manage.com/subscribe/post?u=6bd9e46297d39fc27574d0ef6&amp;id=3762696fbf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <div class='box has-background-grey-light'>
+                        <h1 class='title has-text-dark'>STAY IN THE KNOW</h1>
+                        <h2 class='subtitle has-text-dark'>Sign up and get in early to be the first to try our beta program! Don't worry, we don't like spam either.</h2>
                     </div>
-                    <div class="mc-field-group">
-                        <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
-                    </label>
-                        <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                    </label>
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                    </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6bd9e46297d39fc27574d0ef6_3762696fbf" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <div class="indicates-required has-text-right"><span class="asterisk">*</span> indicates required</div>
+                <div class="mc-field-group">
+                    <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+                </label>
+                    <input type="text" value="" name="FNAME" class="required input" minlength='2' id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+                </label>
+                    <input type="text" value="" name="LNAME" class="required input" minlength='2' id="mce-LNAME">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                </label>
+                    <input type="email" value="" name="EMAIL" class="required email input" id="mce-EMAIL">
+                </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6bd9e46297d39fc27574d0ef6_3762696fbf" tabindex="-1" value=""></div>
+                    <div class="level">
+                        <div class='level-item'>
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button level-item"></div>
                         </div>
-                    </form>
                     </div>
-                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-                    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                    <!--End mc_embed_signup-->
-
-                    </div>
-                    <button class="modal-close toggle-newsletter-modal is-large" aria-label="close"></button>
+                </form>
                 </div>
+                <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                <!--End mc_embed_signup-->
+
+
             </div>
-        </nav>          
+            <button
+              class="modal-close toggle-newsletter-modal is-large"
+              aria-label="close"
+            ></button>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main role='main' class="container">
-            <section class='hero is-fullheight-with-navbar has-bg-img'>
-                <div class="hero-body">
-                    <div class="container">
-                        <h1 class="title is-size-2 has-text-dark">
-                            InvisaWrap
-                        </h1>
-                        <h2 class="subtitle has-text-dark">
-                            Poncho poncho poncho poncho
-                        </h2>
-                    </div>
-                </div>
-            </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="row">
-            <div class="columns">
-              <img
-                src="https://images.unsplash.com/photo-1545594861-3bef43ff2fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                alt="" class="" />
-            </div>
-          </div>
-          <div class="row">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempora soluta velit aliquid adipisci illum architecto aut magni ex sint.</p>
+    <main role="main" class="">
+      <section class="hero is-fullheight-with-navbar has-bg-img">
+        <div class="hero-body">
+          <div class="container has-text-right">
+            <h1 class="title is-size-2 has-text-white">
+              InvisaWrap
+            </h1>
+            <h2 class="subtitle has-text-white">
+              Make a statement. <br />
+              Without being seen.
+            </h2>
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-one-third level-item">
-              <img
-                src="https://images.unsplash.com/photo-1545594861-3bef43ff2fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                alt=""
-                class=""
-              />
-            </div>
-            <div class="column is-two-thirds margin-left level-item">
-              <h5>Lorem</h5>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-                velit voluptatem, earum eos amet impedit nisi tempora cupiditate
-                quidem numquam illum! Ut esse consectetur atque nostrum veniam
-                excepturi sunt officia, repellat vitae iste accusamus minus.
-                Quisquam, numquam repellendus, eligendi totam aliquid, nisi
-                natus laborum nam repudiandae fugiat nesciunt maxime ullam!
-              </p>
-            </div>
+      <section class="section container">
+        <div id="style padding-left padding-right">
+          <p class="is-size-3 has-text-centered">Style</p>
+          <p class="is-size-4 has-text-centered">
+            Thin, flexible, hooded poncho
+          </p>
+        </div>
+      </section>
+      <section class="section about">
+        <div class="about-text-container has-text-centered">
+          <p class="is-size-3">
+            InvisaWrap is a premium rain poncho engineered to give the illusion
+            of invisibility .
+          </p>
+          <button class="button padding-top">About Us</button>
+        </div>
+      </section>
+      <section class="">
+        <div class="columns is-mobile model-half-photo-container">
+          <div class="column model-half-photo-1">
+            <p class="bottom-right-text">
+              Get wet. <br />
+              Stay dry.
+            </p>
+          </div>
+          <div class="column model-half-photo-2">
+            <p class="bottom-right-text">
+              Silently <br />
+              outspoken.
+            </p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column wide-model-photo-container">
+            <p class="bottom-right-text">
+              Stand out. <br />
+              Be Invisible.
+            </p>
           </div>
         </div>
       </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-two-thirds margin-left level-item">
-              <h5>Lorem</h5>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-                velit voluptatem, earum eos amet impedit nisi tempora cupiditate
-                quidem numquam illum! Ut esse consectetur atque nostrum veniam
-                excepturi sunt officia, repellat vitae iste accusamus minus.
-                Quisquam, numquam repellendus, eligendi totam aliquid, nisi
-                natus laborum nam repudiandae fugiat nesciunt maxime ullam!
-              </p>
-            </div>
-            <div class="column is-one-third level-item">
-              <img
-                src="https://images.unsplash.com/photo-1545594861-3bef43ff2fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                alt=""
-                class=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <img
-                src="https://images.unsplash.com/photo-1545594861-3bef43ff2fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                class=""
-              />
-            </div>
-            <div class="column">
-              <img
-                src="https://images.unsplash.com/photo-1545594861-3bef43ff2fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                class=""
-              />
-            </div>
-            <div class="column">
-              <img
-                src="https://images.unsplash.com/photo-1545594861-3bef43ff2fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                class=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="section has-text-centered">
-        <div class="row ">
-          <p>Made For:</p>
-        </div>
-        <div class="row is-size-2">
-          <a href=""><i class="fa fa-facebook"></i></a>
-          <a href=""><i class="fa fa-instagram"></i></a>
-          <a href=""><i class="fa fa-twitter-square"></i></a>
-        </div>
-        <div class="row">
-          <div class="level">
-            <div class="level-left">
-              <p>Sign up for our newsletter</p>
-            </div>
-            <form class="level-right">
-              <div class="control level-item has-icons-left has-icons-right">
-                <input
-                  class="input is-medium"
-                  type="email"
-                  placeholder="Email"
-                />
-                <span class="icon is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-              </div>
-              <div class="level-item">
-                <button type="submit" class="button">
-                  Subscribe
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </footer>
     </main>
+    <footer class="has-text-centered">
+      <div class="row is-size-3">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-twitter-square"></i></a>
+      </div>
+      <div class="row">
+        <p class="is-size-4 is-uppercase">
+          Sign up for our <br />
+          newsletter
+        </p>
+      </div>
+      <div class="row">
+        <button type="submit" class="button">
+          Signup
+        </button>
+      </div>
+      <div class="row is-flex footer-links">
+        <a href="">About</a>
+        <a href="">FAQs</a>
+        <a href="">Contact</a>
+      </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
