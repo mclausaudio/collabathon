@@ -56,7 +56,12 @@ nav {
   background: url("Assests/model.jpg");
   background-size: cover;
   margin-right: 0.7rem;
-  /* width: 40%; */
+  width: 40%;
+}
+
+.form-bkg {
+  background: url('Assests/form-background.jpg');
+  background-size: cover;
 }
 
 .model-half-photo-2 {

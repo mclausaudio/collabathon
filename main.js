@@ -7,10 +7,10 @@ $(document).ready(function() {
   //   adaptiveHeight: true
   // });
 
-  $(".slick").slick({
-    dots: true,
-    slidesToShow: 1
-  });
+  // $(".slick").slick({
+  //   dots: true,
+  //   slidesToShow: 1
+  // });
 
   $(".navbar-burger").click(function() {
     $(".navbar-burger").toggleClass("is-active");
