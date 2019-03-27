@@ -1,8 +1,15 @@
 $(document).ready(function() {
+  // $(".slick").slick({
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 300,
+  //   slidesToShow: 1,
+  //   adaptiveHeight: true
+  // });
 
-  $(".carousel.carousel-slider").carousel({
-    fullWidth: true,
-    indicators: true
+  $(".slick").slick({
+    dots: true,
+    slidesToShow: 1
   });
 
   $(".navbar-burger").click(function() {
@@ -10,8 +17,7 @@ $(document).ready(function() {
     $(".navbar-menu").toggleClass("is-active");
   });
 
-  $('.toggle-newsletter-modal').click(function(){
-    $('.newsletter-modal').toggleClass('is-active')
+  $(".toggle-newsletter-modal").click(function() {
+    $(".newsletter-modal").toggleClass("is-active");
   });
-
 });
