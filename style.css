@@ -52,6 +52,14 @@ nav {
   background-size: cover;
 }
 
+.form-header {
+  background-color: #D8D8D893;
+}
+
+.form-inputs {
+  background-color: #6B717E77;
+}
+
 .model-half-photo-2 {
   background: url("Assests/model_02.jpg");
   background-size: cover;
