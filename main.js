@@ -1,9 +1,5 @@
-$(document).ready(function() {
-
-  $(".carousel.carousel-slider").carousel({
-    fullWidth: true,
-    indicators: true
-  });
+$('document').ready(function(){
+  console.log('jQuery Connected');
 
   $(".navbar-burger").click(function() {
     $(".navbar-burger").toggleClass("is-active");
